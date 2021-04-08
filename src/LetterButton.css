@@ -1,0 +1,43 @@
+.letter-block {
+	font-size: 18px;
+	height: 38px;
+    width: 18px;
+	cursor: pointer;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.letter-block:hover {
+	font-size: 25px;
+}
+
+.letter-block:hover .letters {
+	color: rgb(236, 111, 24);
+}
+
+.letter-block:nth-child(0n+13) {
+	break-after: always;
+}
+
+.letters {
+	color: black;
+}
+
+.break {
+	width: 100%;
+	height: 10px;
+}
+
+.letter-blur {
+	filter: blur(2px);
+}
+
+.letter-block-add {
+	cursor: not-allowed;
+}
+
+.letter-block-add:hover {
+	font-size: 18px;
+}

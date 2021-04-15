@@ -142,10 +142,10 @@ class App extends React.Component {
           <h2>Devinez le mot qui se cache derrière les tirets à l'aide des lettres.</h2>
           <div className={`restart ${restartHidden}`}>
             <span
-              aria-label="congratulation"
+              aria-label="congratulations"
               role="img"
-            ><p>Bien joué ! 🎉</p></span>
-            <iframe src="https://giphy.com/embed/g9582DNuQppxC" title="Congratulation" width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hero0fwar-karmawhore-rhyming-g9582DNuQppxC">via GIPHY</a></p>
+            ><p>Toutes nos félicitations !! 🎉</p></span>
+            <iframe src="https://giphy.com/embed/g9582DNuQppxC" title="Congratulations" width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hero0fwar-karmawhore-rhyming-g9582DNuQppxC">via GIPHY</a></p>
           </div>
           <span className="masked-text"> {this.state.wordToGuessMasked} </span>
           <div className="letters-block">
